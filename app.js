@@ -28,6 +28,7 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res){
     console.log('Receiving data ... from post method');
     console.log('body is ', req.body);
+    console.log('\n')
 })
 
 var port = process.env.PORT || 3000;
